@@ -137,4 +137,37 @@ body {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 375px;
+        height: 575px;
 
+        .card-header {
+            .card-img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .card-title {
+                h1 {
+                    font-size: 32px;
+                }
+
+                .card-location {
+                    font-size: 14px;
+                }
+
+                .card-desc {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .card-links {
+            .card-link-item {
+                padding: 12px 0;
+                font-size: 14px;
+            }
+        }
+    }
+}
